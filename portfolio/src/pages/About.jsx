@@ -1,5 +1,7 @@
 import { useLanguage } from "../i18n";
 
+const PROFILE_PHOTO = `${import.meta.env.BASE_URL}images/perfil/adrian.jpg`;
+
 export default function About() {
   const { t } = useLanguage();
 
@@ -27,7 +29,9 @@ export default function About() {
 
         <div className="about-grid">
 
-          <div className="about-number"></div>
+          <div className="about-photo">
+            <img src={PROFILE_PHOTO} alt={t.about.foto.alt} />
+          </div>
 
           <div className="about-text">
             <p className="large-text">{t.about.largeText}</p>

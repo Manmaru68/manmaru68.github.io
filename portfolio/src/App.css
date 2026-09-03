@@ -997,16 +997,16 @@ button {
   gap: 5rem;
 }
 
-.about-number {
-  font-family: "Space Grotesk", sans-serif;
+.about-photo img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
 
-  font-size: 9rem;
+  object-fit: cover;
 
-  line-height: 0.8;
+  border: 1px solid var(--border);
+  border-radius: 8px;
 
-  color: rgba(92,225,230,0.12);
-
-  letter-spacing: -0.1em;
+  filter: grayscale(15%);
 }
 
 .about-text {
@@ -1763,8 +1763,9 @@ button {
     gap: 2rem;
   }
 
-  .about-number {
-    display: none;
+  .about-photo img {
+    max-width: 280px;
+    margin: 0 auto;
   }
 
   .timeline-item {

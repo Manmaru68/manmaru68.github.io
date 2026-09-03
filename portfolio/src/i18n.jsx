@@ -35,6 +35,7 @@ export const translations = {
       subtitle:
         "Experiencia en desarrollo de software y resolución de problemas complejos, junto con una sólida base en algoritmos, estructuras de datos e inteligencia artificial. Conocimientos que me permiten analizar retos técnicos, plantear soluciones eficientes y desarrollar software robusto y escalable. Mis habilidades de comunicación y colaboración me permiten integrarme eficazmente en equipos de trabajo y contribuir a la consecución de objetivos comunes. Capaz de adaptar conceptos técnicos y explicarlos de forma clara y comprensible según el perfil de la audiencia, facilitando así la coordinación y el intercambio de ideas entre personas con diferentes niveles de conocimiento técnico.",
       introLabel: "INTRODUCCIÓN",
+      foto: "Foto de Adrián",
       largeText:
         "¡Hola! Soy Adrián, un estudiante de Ingeniería Informática que disfruta convirtiendo ideas en software funcional.",
       text1:
@@ -44,8 +45,13 @@ export const translations = {
       experienceLabel: "EXPERIENCIA",
       experience: "Experiencia",
       companies: [
-        { name: "Biancas Design", position: "AI development & IT technical support", duration: "2024 — 2026", 
+        { 
+          name: "Biancas Design", position: "AI development & IT technical support", duration: "2024 — 2026", 
           description: "Desarrollo de soluciones de inteligencia artificial para optimizaciones y soporte técnico informático para empleados." 
+        },
+        {
+          name: "Twitch", position: "Content Creator", duration: "2018 — 2024",
+          description: "Creación de contenido para la plataforma de streaming Twitch."
         },
       ],
       educationLabel: "EDUCACIÓN",
@@ -142,6 +148,7 @@ export const translations = {
       subtitle:
         "Experiència en el desenvolupament de programari i en la resolució de problemes complexos en el dia a dia d'un empleat. Sòlida formació en algorismes, estructures de dades i intel·ligència artificial. Les meves habilitats de comunicació i col·laboració em converteixen en un membre valuós de l'equip, capaç de traduir conceptes tècnics a diferents tipus d'audiència.",
       introLabel: "INTRODUCCIÓ",
+      foto: "Foto d'Adrián",
       largeText:
         "Hola! Soc l'Adrián, un estudiant d'Enginyeria Informàtica que gaudeix convertint idees en programari funcional.",
       text1:
@@ -151,8 +158,13 @@ export const translations = {
       experienceLabel: "EXPERIÈNCIA",
       experience: "Experiència",
       companies: [
-        { name: "Biancas Design", position: "AI development & IT technical support", duration: "2024 — 2026", 
+        { 
+          name: "Biancas Design", position: "AI development & IT technical support", duration: "2024 — 2026", 
           description: "Desenvolupament de solucions de intel·ligència artificial per a optimitzacions i suport tècnic informàtic per a empleats." 
+        },
+        {
+          name: "Twitch", position: "Content Creator", duration: "2018 — 2024",
+          description: "Creació de contingut per a la plataforma de transmissió en directe Twitch."
         },
       ],
       educationLabel: "EDUCACIÓ",
@@ -249,6 +261,7 @@ export const translations = {
       subtitle:
         "Experience in software development and solving complex problems, applying a practical approach focused on finding efficient solutions in my day-to-day professional work. In addition, I have a solid background in algorithms, data structures, and artificial intelligence—knowledge that enables me to tackle various technical challenges and develop robust, scalable solutions. My communication and collaboration skills allow me to integrate effectively into work teams and contribute to the achievement of common goals. I am able to adapt technical concepts and explain them clearly and comprehensibly based on the audience’s background, thereby facilitating coordination and the exchange of ideas among people with varying levels of technical knowledge.",
       introLabel: "INTRODUCTION",
+      foto: "Photo of Adrián",
       largeText:
         "Hi! I'm Adrián, a computer engineering student who enjoys turning ideas into working software.",
       text1:
@@ -258,9 +271,14 @@ export const translations = {
       experienceLabel: "EXPERIENCE",
       experience: "Experience",
       companies: [
-        { name: "Biancas Design", position: "AI development & IT technical support", duration: "2024 — 2026", 
+        { 
+          name: "Biancas Design", position: "AI development & IT technical support", duration: "2024 — 2026", 
           description: "Development of artificial intelligence solutions for companyoptimizations and technical support for employees." 
         },
+        { 
+          name: "Twitch", position: "Content Creator", duration: "2018 — 2024",
+          description: "Content creation for the live streaming platform Twitch."
+        }
       ],
       educationLabel: "EDUCATION",
       education: "Education",

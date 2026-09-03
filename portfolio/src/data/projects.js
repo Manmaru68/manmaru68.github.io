@@ -19,9 +19,9 @@ export const PROJECTS = [
     tags: ["Python", "OpenCV", "TensorFlow", "PyQt5"],
     repo: "https://github.com/Manmaru68/GeoguessrAI",
     gallery: [
-    "../public/images/geoguessrAI/orb.png",
-    "../public/images/geoguessrAI/gradcam.png",
-    "../public/images/geoguessrAI/Game.png",
+    `${import.meta.env.BASE_URL}images/GeoguessrAI/orb.PNG`,
+    `${import.meta.env.BASE_URL}images/GeoguessrAI/gradcam.PNG`,
+    `${import.meta.env.BASE_URL}images/GeoguessrAI/Game.PNG`,
     ],
 
     details: [
@@ -99,10 +99,10 @@ export const PROJECTS = [
     repo: "https://github.com/Manmaru68/TentaCar",
     
     gallery: [
-      "../public/images/tentaCar/Tentacar.jpeg",
-      "../public/images/tentaCar/Bug2Algo.gif",
-      "../public/images/tentaCar/pinza.gif",
-      "../public/images/tentaCar/coger_objeto.gif",
+      `${import.meta.env.BASE_URL}images/TentaCar/Tentacar.jpeg`,
+      `${import.meta.env.BASE_URL}images/TentaCar/Bug2Algo.gif`,
+      `${import.meta.env.BASE_URL}images/TentaCar/pinza.gif`,
+      `${import.meta.env.BASE_URL}images/TentaCar/coger_objeto.gif`,
     ],
 
     details: [
@@ -503,8 +503,8 @@ export const PROJECTS = [
     ],
     repo: "https://github.com/Manmaru68/F1_2D",
     gallery: [
-      "../public/images/f1_2d/1.png",
-      "../public/images/f1_2d/2.png",
+      `${import.meta.env.BASE_URL}images/f1_2d/1.PNG`,
+      `${import.meta.env.BASE_URL}images/f1_2d/2.PNG`,
     ],
 
   },
