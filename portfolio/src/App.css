@@ -31,11 +31,14 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 body {
   margin: 0;
-
+  overflow-x: hidden;
+  max-width: 100%;
   background: var(--bg);
   color: var(--text);
 
@@ -44,6 +47,12 @@ body {
 
 a {
   color: inherit;
+}
+
+p {
+  text-align: justify;
+  text-align-last: left;
+  hyphens: auto;
 }
 
 button {
@@ -61,7 +70,7 @@ button {
 
 .site {
   min-height: 100vh;
-
+  overflow-x: hidden;
   background:
     radial-gradient(
       circle at 10% 0%,
@@ -1921,6 +1930,10 @@ button {
     right: -90px;
 
     top: 25%;
+  }
+
+  p {
+    text-align: left;
   }
 
   .page-header {
