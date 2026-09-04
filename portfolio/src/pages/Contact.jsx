@@ -69,7 +69,7 @@ export default function Contact() {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/adri%C3%A1n-margarit-32380935a/"
+          href="https://www.linkedin.com/in/adrian-margarit"
           target="_blank"
           rel="noopener noreferrer"
         >
